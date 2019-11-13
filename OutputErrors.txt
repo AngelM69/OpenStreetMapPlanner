@@ -1,0 +1,84 @@
+
+root@637ea4130a38:/home/workspace/CppND-Route-Planning-Project
+/build# ./test
+Running main() from /home/workspace/CppND-Route-Planning-Proje
+ct/thirdparty/googletest/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from RoutePlannerTest
+[ RUN      ] RoutePlannerTest.TestCalculateHValue
+[       OK ] RoutePlannerTest.TestCalculateHValue (115 ms)
+[ RUN      ] RoutePlannerTest.TestAddNeighbors
+Adding Neighbours to node(0.118204,0.10592)
+FindingNeighbours for node: (0.118204,0.10592)
+FindingNeighbor for node: (0.0166568,0.138725)
+FN closest node: (0.0166568,0.138725)
+FindingNeighbor for node: (0.118204,0.10592)
+New neighbor added: (0.0166568,0.138725)
+FindingNeighbor for node: (0.118204,0.10592)
+FindingNeighbor for node: (0.197179,0.0803975)
+FN closest node: (0.197179,0.0803975)
+FindingNeighbor for node: (0.224021,0.071723)
+New neighbor added: (0.197179,0.0803975)
+FindingNeighbor for node: (0.118204,0.10592)
+FindingNeighbor for node: (0.135582,0.154693)
+FN closest node: (0.135582,0.154693)
+FindingNeighbor for node: (0.153931,0.210883)
+New neighbor added: (0.135582,0.154693)
+FindingNeighbor for node: (0.0839476,-8.90828e-05)
+FN closest node: (0.0839476,-8.90828e-05)
+FindingNeighbor for node: (0.0877271,0.0115919)
+FN closest node: (0.0877271,0.0115919)
+FindingNeighbor for node: (0.0995369,0.0481382)
+FN closest node: (0.0995369,0.0481382)
+FindingNeighbor for node: (0.10121,0.053305)
+FN closest node: (0.10121,0.053305)
+FindingNeighbor for node: (0.118204,0.10592)
+New neighbor added: (0.10121,0.053305)
+[       OK ] RoutePlannerTest.TestAddNeighbors (113 ms)
+[ RUN      ] RoutePlannerTest.TestConstructFinalPath
+[       OK ] RoutePlannerTest.TestConstructFinalPath (112 ms)
+[ RUN      ] RoutePlannerTest.TestAStarSearch
+Adding Neighbours to node(0.118204,0.10592)
+FindingNeighbours for node: (0.118204,0.10592)
+FindingNeighbor for node: (0.0166568,0.138725)
+FN closest node: (0.0166568,0.138725)
+FindingNeighbor for node: (0.118204,0.10592)
+New neighbor added: (0.0166568,0.138725)
+FindingNeighbor for node: (0.118204,0.10592)
+FindingNeighbor for node: (0.197179,0.0803975)
+FN closest node: (0.197179,0.0803975)
+FindingNeighbor for node: (0.224021,0.071723)
+New neighbor added: (0.197179,0.0803975)
+FindingNeighbor for node: (0.118204,0.10592)
+FindingNeighbor for node: (0.135582,0.154693)
+FN closest node: (0.135582,0.154693)
+FindingNeighbor for node: (0.153931,0.210883)
+New neighbor added: (0.135582,0.154693)
+FindingNeighbor for node: (0.0839476,-8.90828e-05)
+FN closest node: (0.0839476,-8.90828e-05)
+FindingNeighbor for node: (0.0877271,0.0115919)
+FN closest node: (0.0877271,0.0115919)
+FindingNeighbor for node: (0.0995369,0.0481382)
+FN closest node: (0.0995369,0.0481382)
+FindingNeighbor for node: (0.10121,0.053305)
+FN closest node: (0.10121,0.053305)
+FindingNeighbor for node: (0.118204,0.10592)
+New neighbor added: (0.10121,0.053305)
+Segmentation fault (core dumped)
+
+
+root@637ea4130a38:/home/workspace/CppND-Route-Planning-Project
+/build# ./test
+Running main() from /home/workspace/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from RoutePlannerTest
+[ RUN      ] RoutePlannerTest.TestCalculateHValue
+[       OK ] RoutePlannerTest.TestCalculateHValue (113 ms)
+[ RUN      ] RoutePlannerTest.TestAddNeighbors
+[       OK ] RoutePlannerTest.TestAddNeighbors (115 ms)
+[ RUN      ] RoutePlannerTest.TestConstructFinalPath
+[       OK ] RoutePlannerTest.TestConstructFinalPath (115 ms)
+[ RUN      ] RoutePlannerTest.TestAStarSearch
+Segmentation fault (core dumped)
